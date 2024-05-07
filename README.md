@@ -8,4 +8,6 @@ For demonstration purposes, the `TestComponent` has been setup to internally use
 
 We will then render the `TestComponent` twice in the browser - once as part of a normal Angular project and once as a web component registered with [Angular Elements](https://angular.io/guide/elements) to show that both work.
 
+**Note**
+
 The most interesting parts of the code can be found in the files `/src/main.ts` and `/src/index.html`, which registers `TestComponent` to also run as a web component via [Angular Elements](https://angular.io/guide/elements).
