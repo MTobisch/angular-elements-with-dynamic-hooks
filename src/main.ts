@@ -23,9 +23,9 @@ bootstrapApplication(AppComponent, appConfig).catch((err) => console.error(err))
     ],
   });
 
-  const PopupElement = createCustomElement(TestComponent, {
+  const TestComponentElement = createCustomElement(TestComponent, {
     injector: app.injector,
   });
 
-  customElements.define('my-webcomponent', PopupElement);
+  customElements.define('my-webtestcomponent', TestComponentElement);
 })();
