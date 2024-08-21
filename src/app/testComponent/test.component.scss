@@ -1,9 +1,14 @@
 .test {
-  display: inline-block;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
   background-color: #f5e9dc;
   padding: 10px;
   border-radius: 10px;
 }
+  button {
+    margin: 0px 0px 10px 0px;
+  }
 
   .dynamic-container {
     display: inline-flex;

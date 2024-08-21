@@ -7,6 +7,7 @@ import { Injector, importProvidersFrom } from '@angular/core';
 import { DynamicHooksModule } from 'ngx-dynamic-hooks';
 import { FishComponent } from './app/fishComponent/fish.component';
 
+
 // Run Angular normally (not needed, just for demonstration purposes!) 
 bootstrapApplication(AppComponent, appConfig).catch((err) => console.error(err));
 
@@ -29,3 +30,8 @@ bootstrapApplication(AppComponent, appConfig).catch((err) => console.error(err))
 
   customElements.define('my-webtestcomponent', TestComponentElement);
 })();
+
+const eventName = 'onClick';
+document.querySelector('my-webtestcomponent')!.addEventListener(eventName, event => {
+  console.log('custom event:', eventName, event);
+});

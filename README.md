@@ -1,6 +1,6 @@
 # Angular Elements with Ngx-Dynamic-Hooks
 
-This is a minimal example project to show how you can combine [Angular Elements](https://angular.io/guide/elements) with the [ngx-dynamic-hooks](https://github.com/MTobisch/ngx-dynamic-hooks) library.
+This is a minimal example project to show how you can combine [Angular Elements](https://angular.io/guide/elements) with the [ngx-dynamic-hooks](https://github.com/angular-dynamic-hooks/ngx-dynamic-hooks) library.
 
 Run `ng serve` and open your browser under the indicated url (usually [http://localhost:4200/](http://localhost:4200/)) to see the project in action.
 

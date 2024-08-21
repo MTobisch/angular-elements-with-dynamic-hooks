@@ -1,4 +1,4 @@
-import { Component, Input } from '@angular/core';
+import { Component, EventEmitter, Input, Output } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 import { DynamicHooksModule } from 'ngx-dynamic-hooks';
 
@@ -11,6 +11,7 @@ import { DynamicHooksModule } from 'ngx-dynamic-hooks';
 })
 export class TestComponent {
   @Input() origin: string|null = null;
+  @Output() onClick: EventEmitter<string> = new EventEmitter();
   contentString=`
     <div class='dynamic-div'>
       <p>This is the dynamic content string!</p>
